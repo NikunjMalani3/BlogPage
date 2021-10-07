@@ -9,40 +9,45 @@
 body {
     margin-left: 1px;
     margin: 0px;
+
 }
 
 .header {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
 }
 
 .header-heading-1 {
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-bottom: 2rem;
+    background-color: var(--primary-color);
 }
 
 .headerlink {
     text-decoration: none;
     text-align: right;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     color: black;
     font-size: large;
+    background-color: var(--secondary-color)
 }
 
-.blog-intro{
-    margin-bottom: 1rem;
+.blog-intro {
+    margin-bottom: 5rem;
+    margin-block-start: 0em;
+    width: 299px;
+    background-color: var(--primary-color);
 }
 
-.image-container{
-    
-width: 450px;
-height: 300px;
-}    
-
-.left{
-    float: left;
+.why {
+    margin-block-start: 0em;
+    margin-bottom: 5rem;
+    width: 461px;
+    background-color: var(--secondary-color)
 }
 
-.right{
-    float: right;
+.blog-start {
+    margin-block-start: 0em;
+    width: 255px;
+    background-color: var(--primary-color)
 }
